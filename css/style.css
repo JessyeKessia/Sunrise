@@ -116,10 +116,12 @@ nav,
 }
 
 .philosophy_container h1 {
-    font-size: 120px;
+    line-height: 120px;
+    font-size: 80px;
     text-align: center;
     margin: 20px;
     color: #43401c;
+    font-family: "Rock Salt", cursive;
 }
 
 .philosophy_container p {
@@ -146,8 +148,10 @@ nav,
 }
 
 .product h2 {
-    font-size: 34px;
+    font-size: 32px;
+    line-height: 44px;
     width: 300px;
+    font-family: "Rock Salt", cursive;
 }
 
 .product p {
@@ -159,6 +163,7 @@ nav,
 .products_container img {
     width: 400px;
     height: 400px;
+    border-radius: 4px;
 }
 
 .info_container {
@@ -181,8 +186,10 @@ nav,
     gap: 24px;
 }
 .texts {
-    font-size: 50px;
+    font-size: 36px;
+    line-height: 75px;
     color: #43401c;
+    font-family: "Rock Salt", cursive;
 }
 footer{
     padding: 16px;

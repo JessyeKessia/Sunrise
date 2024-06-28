@@ -3,40 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="https://kit.fontawesome.com/f71754851b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stylecont.css">
+    <link rel="shortcut icon" href="img/logosunrise.png" type="image/x-icon">
     <title>Sunrise</title>
 </head>
 <body>
     <header>
-        <img src="img/logosunrise.png" alt="logo" class="logo">
-
-        <img src="img/mulher2.jpg" alt="Header">
         <nav>
+            <div class="logo_container">
+                <img src="/img/logosunrise.png" alt="logo" class="logo" href="/index-home.html">
+                <h2>Sunrise</h2>
+            </div>
             <ul>
-                <li> <a href="">Home</a></li>
-                <li> <a href="">Contact</a></li>
+                <li> <a href="/index-home.html">Home</a></li>
+                <li> <a href="/index-contact.html">Contact</a></li>
+                <li> <a href="/index-meet-us.html">Meet us</a></li>
             </ul>
         </nav>
-        <div class="header">
-            <h1> For a better you</h1>
-            <p>Skincare products that not only nourish the skin but also nurture the spirit.
-            </p>
-            <a href="" class="buttom">SHOP NOW</a>
+        <div class="header_container">
+            <h1> Contact </h1>
         </div>
     </header>
-    <h2>Claim Your 10% Discount at Our Store!</h2>
-    <p>We understand the importance of saving money while still enjoying top-quality products, and that's why we're delighted to extend this special offer to our loyal customers. To claim your discount, simply fill out the form provided below with your details, and present the confirmation email at the time of purchase. Once verified, you'll enjoy a fantastic 10% discount on your total bill. Don't miss out on this opportunity to save on your favorite items. Hurry, as this offer won't last forever!</p>
-    <form>
-        <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your answer">
-        <label for="email">E-mail</label>
-            <input type="email" name="email" placeholder="Your answer">
-        <label for="adress">Adress</label>
-            <input type="text" name="Adress" placeholder="Your answer">
-        <label for="Number">Phone Number</label>
-            <input type="text" name="Number" placeholder="Your answer">
-        <input type="submit" name="enviar" value="Submit">
-    </form>
+    <section class="form-container">
+        <div class="form-group">
+            <h2>Claim Your 10% Discount at Our Store!</h2>
+            <p>We understand the importance of saving money while still enjoying top-quality products, and that's why we're delighted to extend this special offer to our loyal customers. To claim your discount, simply fill out the form provided below with your details, and present the confirmation email at the time of purchase. Once verified, you'll enjoy a fantastic 10% discount on your total bill. Don't miss out on this opportunity to save on your favorite items. Hurry, as this offer won't last forever!</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your answer">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" name="email" placeholder="Your answer">
+            </div>
+            <div class="form-group">
+                <label for="adress">Adress *</label>
+                <input type="text" name="Adress" placeholder="Your answer">
+            </div>
+            <div class="form-group">
+                <label for="Number">Phone Number </label>
+                <input type="text" name="Number" placeholder="Your answer">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
     <footer>
         <div class="social">
             <i class="fa-brands fa-tiktok"></i>

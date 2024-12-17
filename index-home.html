@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunrise Skincare - Produtos naturais e científicos para uma pele radiante e saudável.">
     <script src="https://kit.fontawesome.com/f71754851b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,10 +16,15 @@
     <header>
         <nav>
             <div class="logo_container">
-                <img src="img/logosunrise.png" alt="logo" class="logo" href="index-home.html">
+                <a href="index-home.html">
+                    <img src="img/logosunrise.png" alt="logo" class="logo">
+                </a>                
                 <h2>Sunrise</h2>
             </div>
-            <ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="menu">
                 <li> <a href="index-home.html">Home</a></li>
                 <li> <a href="index-contact.html">Contact</a></li>
                 <li> <a href="index-meet-us.html">Meet us</a></li>
@@ -39,23 +45,24 @@
             </p>
         </div>
     </section>
-    <section class="products_container">
-        <div class="product">
-            <img src="img/Saiba-como-fabricar-sabonetes-artesanais-e-ganhe-dinheiro-Os-Melhores-Cursos-de-Saboaria-Artesanal.jpg" alt="soup">
+    <section class="carousel">
+        <button class="carousel-btn prev" aria-label="Previous Slide">&lt;</button>
+        <div class="carousel-container">
+          <div class="carousel-item active">
+            <img src="img/Saiba-como-fabricar-sabonetes-artesanais-e-ganhe-dinheiro-Os-Melhores-Cursos-de-Saboaria-Artesanal.jpg" alt="Soap">
             <h2>PureGlow Cleansing Bar</h2>
-            <p>Luxurious cleansing with nourishing oils and botanical extracts for radiant skin. Indulge in its delicate fragrance of orange for an exquisite bathing experience.</p>
-        </div>
-        <div class="product">
-            <img src="img/frasco-hidratante-de-creme-facial-em-fundo-de-brilho-de-ferias-cuidados-hidratantes-com-a-pele-como-.jpg" alt="cream">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img123.jpg" alt="Cream">
             <h2>RadiantSkin Revive Cream</h2>
-            <p>Unlock the secret to luminous skin with our deeply hydrating formula. Renew, replenish, and reveal your natural radiance.</p>
-        </div>
-        <div class="product">
-            <img src="img/produtos-cosmeticos-para-a-pele-em-fundo-branco-frasco-de-vidro-de-oleo-natural-conceito-moderno-de-.jpg" alt="oil">
+          </div>
+          <div class="carousel-item">
+            <img src="img/produtos-cosmeticos-para-a-pele-em-fundo-branco-frasco-de-vidro-de-oleo-natural-conceito-moderno-de-.jpg" alt="Oil">
             <h2>GlowGuard Facial Oil</h2>
-            <p>Nourish your skin with our lightweight yet potent formula, delivering a radiant complexion with every drop. Defend against dullness and embrace a luminous glow.</p>
+          </div>
         </div>
-    </section>
+        <button class="carousel-btn next" aria-label="Next Slide">&gt;</button>
+    </section>      
     <section class="info_container">
         <div class="text_icons">
             <div class="icons">
@@ -76,12 +83,21 @@
     </section>
     <footer>
         <div class="social">
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-square-x-twitter"></i>
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://x.com/?lang=pt-br" target="_blank">
+                <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
         </div>
         <p> Copyright © 2024 Jessye Pereira. Todos os direitos reservados.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

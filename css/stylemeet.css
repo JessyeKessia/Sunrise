@@ -44,12 +44,45 @@ nav {
     gap: 5px;
 }
 
-nav ul {
+.hamburger {
     display: flex;
-    gap: 20px;
-    list-style-type: none;
-    font-size: 20px;
-    padding: 0px;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 40px;
+    z-index: 100;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: -250px; 
+    height: 100%;
+    width: 200px;
+    background-color: rgba(66, 64, 34, 0.562);
+    box-shadow: -2px 0 10px rgba(24, 23, 23, 0.5);
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: all 0.3s ease; 
+    z-index: 99;
+}
+
+.menu li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.menu.active {
+    right: 0; 
 }
 
 nav ul li a:link,
@@ -117,7 +150,9 @@ footer{
     flex-direction: column;
 }
 
-.social {
+footer .social a {
+    color: inherit;
     font-size: 26px;
     cursor: pointer;
+    text-decoration: none;
 }
